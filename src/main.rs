@@ -58,7 +58,7 @@ fn main() {
     let lua = Lua::new();
 
     // Retreive Lua source code from configuration file.
-    lua.load("config = require 'rush'")
+    lua.load("config = require 'crsh'")
         .exec()
         .expect("Failed to load configuration.");
 
